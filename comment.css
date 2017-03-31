@@ -1,0 +1,156 @@
+body, p, img, dl, dt, dd, ul, ol, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+body { position: relative; font: 12px/24px/*字号/行高*/ "Microsoft YaHei", Arial; min-width: 960px; }
+ul, ol { list-style: none; }
+img { border: 0 none; }
+input, select { vertical-align: middle; }
+table { border-collapse: collapse; }
+s, em, i { font-style: normal; text-decoration: none; }
+.cf { *zoom: 1; }
+.cf:after { clear: both; content: "."; display: block; height: 0; overflow: hidden; visibility: hidden; zoom: 1; }
+
+.comment{
+    width: 960px;
+    height: 200px;
+    /*background: #08EBF7;*/
+    margin: 30px auto 0;
+    position: relative;
+}
+.comment .nav{
+    font-size: 14px;
+    color: #A7A7A7;
+}
+.comment .nav span{
+    margin-right: 6px;
+}
+.comment .nav a{
+    text-decoration: none;
+    margin:0 6px 0 4px;
+    color: #A7A7A7;
+}
+.comment .nav a:hover{
+    text-decoration: underline;
+}
+.comment textarea{
+    width:100%;
+    height:100%;
+    /*outline: none;*/
+    resize: none;
+    padding-top: 10px;
+    padding-left: 6px;
+    font-size: 16px;
+    background: #fff;
+}
+.comment .box{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top:240px;
+    background: #FBFBFB;
+}
+.comment .box .search{
+    width: 100%;
+    height: 100%;
+    /*background: #443DFF;*/
+    border: 1px solid #E1E1E1;
+}
+.comment .box .btn{
+    width: 200px;
+    height: 62px;
+    font-size: 24px;
+    background: #FF4009;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    margin-top: -62px;
+    margin-left: 771px;
+    text-align: center;
+    line-height:62px;
+}
+.comment .box .btn:hover{
+    background: #f00;
+}
+.comment .search .expression{
+    width: 50px;
+    height: 50px;
+    /*border: 1px solid red;*/
+    margin-left: 16px;
+    margin-top: 5px;
+    /*margin-top: 16px;*/
+    position: relative;
+}
+.comment .search .expression .expression-left{
+    width: 50px;
+    height: 50px;
+    /*background: #BF49FF;*/
+    position: absolute;
+}
+.comment .search .expression .expression-left img{
+    margin-top: 14px;
+}
+.comment .search .expression .expression-left .triangle-t{
+    /*display: block;*/
+    width: 7px;
+    height: 4px;
+    background: url(http://y0.ifengimg.com/fe/F_comment_new/images/face-TriggerArr_b9713c54.gif) no-repeat 0 -4px;
+    position: absolute;
+    top: 8px;
+    left: 34px;
+}
+.search .expression .expression-left:hover .triangle-t{
+    display: none;
+}
+.search .expression .expression-left .triangle-b{
+    width: 7px;
+    height: 4px;
+    background: url(http://y0.ifengimg.com/fe/F_comment_new/images/face-TriggerArr_b9713c54.gif) no-repeat 0 0;
+    position: absolute;
+    top: 8px;
+    left: 34px;
+    display: none;
+}
+.search .expression .expression-left:hover .triangle-b {
+    display: block;
+}
+.comment .box .search .expression .list .arrow{
+    width: 8px;
+    height: 6px;
+    background: url("images/face111.png") no-repeat;
+    /*background: #F70C1B;*/
+    position: absolute;
+    left: 26px;
+    top: -5px;
+}
+.comment .search .expression .list{
+    width: 344px;
+    border: 1px solid #DBDBDB;
+    position: absolute;
+    top: 46px;
+    left: -17px;
+    background: #fff;
+    padding-top: 4px;
+    padding-left: 15px;
+    display: none;
+    z-index: 1;
+}
+.comment .search .expression .list a{
+    margin: 0 2px;
+}
+.comment .search .expression:hover .list {
+    display: block;
+}
+.comment .footer{
+    position: absolute;
+    top: 306px;
+    font-size: 14px;
+    color: #D0D0D0;
+}
+.comment .footer a{
+    text-decoration: none;
+    color: #D0D0D0;
+}
+.comment .footer span{
+    color: #262626;
+}
+.comment .footer a:hover{
+    text-decoration: underline;
+}
